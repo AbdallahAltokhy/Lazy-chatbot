@@ -121,41 +121,6 @@ padding: 10% 0;}
 
 
 
-/* respond-no section */
-
-.respond-no-content{
-  color: #fff;
-text-align: center;
-margin: auto;
-padding: 0;
-display: none;
- }
-
-.respond-no-text{
-  padding: 12% 10%;
-  display:flex;
-  align-items:center;
-  flex-direction: row;
-  width: 30%;
-  float: left;
-  line-height: 2;
-  font-family: monospace;
-  font-size: 2.5rem;
-  font-weight: bold;
-
-  animation: 
-    typing 1.0s steps(8, end),
-    blinking-cursor .5s step-end infinite;
-    
-}
-
-
-.respond-no-img{
-display:flex;
-align-items:center;
-flex-direction: row;
-width: 50%;
-}
 
 
 /* respond-yes section */
