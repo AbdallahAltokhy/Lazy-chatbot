@@ -96,7 +96,7 @@ function chat () {
 
             let searchLink = 'href=' + '"http://www.google.com/search?q=' + searchKey;
 
-            botMsg = 'I think this could help  <a  target="_blank" ' + searchLink + '" class="search-direct"> See the magic   </a>';
+            botMsg = 'I think this could help  <a  target="_blank" ' + searchLink + '" class="search-direct"> click to See the magic   </a>';
 
          }
 
