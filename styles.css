@@ -17,9 +17,6 @@
     blinking-cursor .5s step-end infinite;
   }
   
-
-
-
   /* The typing effect */
   @keyframes typing {
     from { width: 20% }
@@ -33,16 +30,13 @@
   }
 
 
-
-
- /*  Buttons */
-
+  
+/*  Buttons */
 .box{
     margin: auto;
     padding: 6% 25%  5% 20%;
     visibility: hidden;
 }
-  
 
 .btn{
   border: 1px solid rgb(40, 36, 106);
@@ -63,27 +57,14 @@
 }
 
 
-
-
-
-
-/* respond-yes section */
-
-
-/* chat displayes text */
-
+/* chat displays text */
 #container{
   display: none;
   background-color: rgb(60, 36, 196);
-/*   border: 2px solid orange;
- */  border-radius: 20px;
+  border-radius: 20px;
   margin: 10% 0% 10% 14.5%;
   width: 70%;
-
 }
-
-
-
 
 .chat-text-container{
   margin: 2%;
@@ -113,16 +94,13 @@
 }
 
 
-
 /* bot replies */
 .bot-text-container{
   float: left;
   animation: 
     typing 0.5s steps(8, end),
     blinking-cursor .8s step-end infinite;
-
 }
-
 
 .search-direct{
   text-decoration: none;
@@ -130,14 +108,10 @@
   color: #2e1ab0;
 }
 
-
-
 .user-msg{
   color: #666;
   margin-right: 2%;
 }
-
-
 
 
 /* user replies */
@@ -145,11 +119,7 @@
   background-color: #E0F4FD;
 }
 
-
-
-
 /* Time style */
-
 .timePosted{
   color: #00C9B7;
   font-size: 0.75rem;
@@ -157,9 +127,7 @@
   display: contents;
 }
 
-
 /* chat text area and submit button */
-
 .user-input{
   display: inline-block;
   margin:  10% 0 0;
